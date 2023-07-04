@@ -46,7 +46,7 @@ body {
     max-width: 250px;
     gap: 15px;
 }
-.username{
+.controls{
     background: rgba(36, 36, 36, 0.78);
     border-radius: 5px;
     height: 46px;
@@ -62,15 +62,6 @@ body {
     justify-content: space-around;
     top: 281px;
     left: 100px;
-}
-.password{
-    background: rgba(36, 36, 36, 0.78);
-    border-radius: 5px;
-    height: 46px;
-    box-sizing: border-box;
-    text-indent: 52px;
-    width: 268px;
-    color: white;
 }
 .person{
     display: flex;
@@ -101,7 +92,7 @@ body {
     align-items: center;
     color: white;
 }
-.a{
+.btnLogin a{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
