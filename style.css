@@ -46,13 +46,14 @@ body {
     max-width: 250px;
     gap: 15px;
 }
-.text{
+.username{
     background: rgba(36, 36, 36, 0.78);
     border-radius: 5px;
     height: 46px;
     box-sizing: border-box;
     text-indent: 52px;
     width: 268px;
+    color: white;
 }
 .key{
     position: absolute;
@@ -69,6 +70,7 @@ body {
     box-sizing: border-box;
     text-indent: 52px;
     width: 268px;
+    color: white;
 }
 .person{
     display: flex;
