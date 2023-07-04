@@ -4,7 +4,7 @@ body {
     background: url(Imagenes/fondoRegister.png);
     background-size: cover;
     background-position: center;
-    font-family: sans-serif;
+    font-family: Roboto;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -46,52 +46,7 @@ body {
     max-width: 215px;
     gap: 30px;
 }
-.fullname{
-    background: rgba(36, 36, 36, 0.78);
-    border-radius: 5px;
-    height: 46px;
-    box-sizing: border-box;
-    text-indent: 20px;
-    width: 268px;
-    color: white;
-}
-.dni{
-    background: rgba(36, 36, 36, 0.78);
-    border-radius: 5px;
-    height: 46px;
-    box-sizing: border-box;
-    text-indent: 20px;
-    width: 268px;
-    color: white;
-}
-.fn{
-    background: rgba(36, 36, 36, 0.78);
-    border-radius: 5px;
-    height: 46px;
-    box-sizing: border-box;
-    text-indent: 20px;
-    width: 268px;
-    color: white;
-}
-.department{
-    background: rgba(36, 36, 36, 0.78);
-    border-radius: 5px;
-    height: 46px;
-    box-sizing: border-box;
-    text-indent: 20px;
-    width: 268px;
-    color: white;
-}
-.district{
-    background: rgba(36, 36, 36, 0.78);
-    border-radius: 5px;
-    height: 46px;
-    box-sizing: border-box;
-    text-indent: 20px;
-    width: 268px;
-    color: white;
-}
-.direction{
+.controls{
     background: rgba(36, 36, 36, 0.78);
     border-radius: 5px;
     height: 46px;
@@ -109,7 +64,7 @@ body {
     gap: 60px;
     padding-left: 50px;
 }
-.a{
+.botones a{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
