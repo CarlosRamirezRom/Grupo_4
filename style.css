@@ -4,7 +4,7 @@ body {
     background: url(Imagenes/fondo.png);
     background-size: cover;
     background-position: center;
-    font-family: Roboto;
+    font-family: 'Roboto';
     position: absolute;
     height: 100%;
     width: 100%;
@@ -36,15 +36,21 @@ body {
     color: #FFFFFF;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     padding-left: 48px;
+}
+h1.logotipo{
+    padding-top: 8px;
+    font-size: 34px;
+    font-family: 'Poppins';
 }
 .inputs{
     display: flex;
     flex-direction: column;
     max-width: 250px;
-    gap: 15px;
+    gap: 53px;
+    padding-left: 30px;
 }
 .controls{
     background: rgba(36, 36, 36, 0.78);
@@ -60,7 +66,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    top: 281px;
+    top: 343px;
     left: 100px;
 }
 .person{
@@ -68,7 +74,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     position: absolute;
-    top: 179px;
+    top: 240px;
     left: 101px;
 }
 .botones{
@@ -93,12 +99,20 @@ body {
     color: white;
 }
 .botones a{
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
     color: rgba(251, 251, 251, 0.73);
+    text-decoration: none;
+}
+.botones a:hover{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.73);
+    text-decoration: underline;
 }
 .config{
     display: flex;

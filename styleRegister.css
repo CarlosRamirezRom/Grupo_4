@@ -4,7 +4,7 @@ body {
     background: url(Imagenes/fondoRegister.png);
     background-size: cover;
     background-position: center;
-    font-family: Roboto;
+    font-family: 'Roboto';
     position: absolute;
     height: 100%;
     width: 100%;
@@ -36,9 +36,14 @@ body {
     color: #FFFFFF;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     padding-left: 48px;
+}
+h1.logotipo{
+    padding-top: 8px;
+    font-size: 34px;
+    font-family: 'Poppins';
 }
 .inputs{
     display: flex;
@@ -64,13 +69,24 @@ body {
     gap: 60px;
     padding-left: 50px;
 }
+::-webkit-calendar-picker-indicator{
+    color: #FFFFFF;
+}
 .botones a{
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
     color: rgba(251, 251, 251, 0.73);
+    text-decoration: none;
+}
+.botones a:hover{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.73);
+    text-decoration: underline;
 }
 .btnRegister{
     background: #4AD299;
