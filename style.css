@@ -4,7 +4,7 @@ body {
     background: url(Imagenes/fondo.png);
     background-size: cover;
     background-position: center;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -30,7 +30,7 @@ body {
 }
 .titulo{
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
@@ -43,7 +43,7 @@ body {
 h1.logotipo{
     padding-top: 8px;
     font-size: 34px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
 }
 .inputs{
     display: flex;
