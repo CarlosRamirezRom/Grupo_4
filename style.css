@@ -41,7 +41,7 @@ body {
     padding-left: 48px;
 }
 h1.logotipo{
-    padding-top: 8px;
+    padding-top: 4px;
     font-size: 34px;
     font-family: 'Poppins', sans-serif;
 }
@@ -66,7 +66,7 @@ h1.logotipo{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    top: 343px;
+    top: 334px;
     left: 100px;
 }
 .person{
@@ -74,7 +74,7 @@ h1.logotipo{
     flex-direction: row;
     justify-content: space-around;
     position: absolute;
-    top: 240px;
+    top: 132px;
     left: 101px;
 }
 .botones{
