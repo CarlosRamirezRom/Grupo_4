@@ -23,11 +23,17 @@
                 <div class="inputs">
                     <input class="controls" type="text" placeholder="Nombre Completo" name="fullname" id="fullname">
                     <input class="controls" type="text" placeholder="DNI" name="dni" id="dni">
-                    <input class="controls" type="date" placeholder="Fecha de nacimiento" name="fn" id="fn" 
-                    style="    position: inherit;
+                    <div class="fecha" style="display: flex; flex-direction: row; margin-block-end: -30px;">
+
+                    <input class="controls" type="date" placeholder="Fecha de nacimiento" name="fn" id="fn" style="
+                    position: inherit;
                     text-indent: 10px;
-                    width: 145px;
-                    padding-right: 13px;">
+                    padding-right: 9px;
+                    " _mstplaceholder="345345">
+                    <h4 style="color: rgba(255, 255, 255, 0.47);text-align: center;font-family: 'Roboto', sans-serif;font-size: 15px;
+                    font-style: normal;font-weight: 300;line-height: normal;position: relative;top: -16px;left: 30px;">Fecha de nacimiento</h4> 
+                    </div>
+
                     <input class="controls" type="text" placeholder="Departamento" name="department" id="department">
                     <input class="controls" type="text" placeholder="Provincia" name="province" id="province">
                     <input class="controls" type="text" placeholder="Distrito" name="district" id="district">
@@ -35,12 +41,36 @@
                     <input class="controls" type="text" placeholder="Correo" name="email" id="email">
                 </div>
                 <div class="botones">
-                    <a href="a">Aceptar Términos y Condiciones</a>
-                    <div class="btnRegister">Enviar solicitud</div>
+                    <a href="a">Términos y Condiciones</a>
+                    <div class="btnRegister" onclick="Registrar()">Enviar solicitud</div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script>
+        function login() {
+            var fullname = document.getElementById("fullname").value;
+            var dni = document.getElementById("dni").value;
+            var fn = document.getElementById("fn").value;
+            var department = document.getElementById("department").value;
+            var province = document.getElementById("province").value;
+            var district = document.getElementById("district").value;
+            var direction = document.getElementById("direction").value;
+            var email = document.getElementById("email").value;
+        
+            // Aquí puedes realizar las validaciones de inicio de sesión
+            // Por ejemplo, comparar los valores ingresados con una base de datos o un API
+        
+            // Ejemplo básico de validación
+            if (fullname !== "" && dni !== "" && fn !== "" && department !== "" && province !== "" && district !== "" && direction !== "" && email) {
+                alert("Registro exitoso");
+                window.location.href = "index.html"; // Redireccionar al menú principal
+            } else {
+                alert("Los datos ingresados no son correctos. Por favor, intente de nuevo.");
+            }
+        }
+    </script>
 
 </body>
 

@@ -28,7 +28,7 @@
                     <div class="person"> <img src="Imagenes/person.png"> </div>
                 </div>
                 <div class="botones">
-                    <div class="btnLogin">Entrar</div>
+                    <div class="btnLogin" onclick="login()">Entrar</div>
                     <a href="regiter.html">Solicitar accesos</a>
                     <div class="config"> <img src="Imagenes/config.png"></div>
                     </div>
@@ -36,6 +36,25 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function login() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+        
+            // Aquí puedes realizar las validaciones de inicio de sesión
+            // Por ejemplo, comparar los valores ingresados con una base de datos o un API
+        
+            // Ejemplo básico de validación
+            if (username === "admin" && password === "admin") {
+                alert("Inicio de sesión exitoso");
+                window.location.href = "home.html"; // Redireccionar al menú principal
+            } else {
+                alert("Credenciales incorrectas. Por favor, intente de nuevo.");
+            }
+        }
+    </script>
+
     </form>
 </body>
 
